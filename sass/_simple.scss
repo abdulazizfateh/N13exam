@@ -1,0 +1,144 @@
+.simple-section {}
+
+.simple-wrapper {
+    padding: 0 0 80px 0;
+}
+
+.simple-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.simple-phone {
+    margin-bottom: 48px;
+
+    img {
+        width: 152px;
+        height: 290px;
+    }
+}
+
+.simple-desc {}
+
+.simple-desc-title {
+    margin-bottom: 24px;
+
+    p {
+        color: rgb(54, 83, 107);
+        font-family: DM400;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.28px;
+        text-align: center;
+    }
+}
+
+.simple-desc-text {
+    p {
+        color: rgb(108, 130, 148);
+        font-family: PS400;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width:200px) {
+    .simple-phone {
+        img {
+            width: 100%;
+            height: 230px;
+        }
+    }
+}
+
+@media (min-width:360px) {
+    .simple-phone {
+        img {
+            width: 152px;
+            height: 290px;
+        }
+    }
+}
+
+
+
+
+
+@media (min-width:700px) {
+    .simple-wrapper {
+        padding: 0 0 100px 0;
+    }
+
+    .simple-mobile {
+        gap: 40px;
+    }
+
+    .simple-desc-title {
+        p {
+            color: rgb(54, 83, 107);
+            font-family: DM400;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 56px;
+            letter-spacing: -0.37px;
+        }
+    }
+
+    .simple-desc-text {
+        p {
+            text-align: start;
+        }
+    }
+}
+
+
+
+@media (min-width:1000px) {
+    .simple-wrapper {
+        padding: 0 0 100px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .simple-desc {
+        width: 40%;
+        order: 1;
+    }
+
+    .simple-desc-title {
+        display: flex;
+        justify-content: start;
+    }
+
+    .simple-mobile {
+        order: 2;
+    }
+
+    .simple-phone {
+        margin-bottom: 0px;
+
+        img {
+            width: 263px;
+            height: 500px;
+        }
+    }
+}
+
+
+
+
+@media (min-width:1300px) {
+    .simple-wrapper {
+        padding: 0 0 150px 0;
+        gap: 95px;
+    }
+}

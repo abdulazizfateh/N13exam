@@ -1,0 +1,39 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+    @font-face {
+        font-family: DM400;
+        src: url(../../fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: PS400;
+        src: url(../../fonts/Public_Sans/PublicSans-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: PS700;
+        src: url(../../fonts/Public_Sans/PublicSans-Bold.ttf);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 85%;
+        max-width: 1440px;
+    }

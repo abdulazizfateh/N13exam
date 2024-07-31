@@ -1,0 +1,162 @@
+.work-section {
+    padding: 80px 0 80px 0;
+}
+
+.work-section {
+    background-color: #1B262F;
+}
+
+.work-wrapper {}
+
+.work-with {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 58px;
+}
+
+.work-desc {}
+
+.work-desc-title {
+    margin-bottom: 16px;
+
+    p {
+        color: rgb(251, 252, 254);
+        font-family: DM400;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -0.25px;
+        text-align: center;
+    }
+}
+
+.work-desc-text {
+    color: rgb(251, 252, 254);
+    font-family: PS400;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 60px;
+}
+
+.work-about-btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 129px;
+    padding: 16px 0 14px 0;
+    border: 1px solid rgb(251, 252, 254);
+    border-radius: 24px;
+    background-color: transparent;
+
+    &:active {
+        background-color: white;
+
+        p {
+            color: #1B262F;
+        }
+    }
+
+    p {
+        color: rgb(251, 252, 254);
+        font-family: PS700;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: -0.12px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+@media (min-width:500px) {
+    .work-section {
+        padding: 88px 0 88px 0;
+    }
+
+    .work-desc-text {
+        margin: 0 auto;
+        margin-bottom: 32px;
+        width: 456px;
+    }
+}
+
+@media (min-width:700px) {
+    .work-with {
+        display: flex;
+        justify-content: space-between;
+        width: 540px;
+        margin: 0 auto;
+        gap: 60px;
+        margin-bottom: 71px;
+    }
+
+    .work-desc-title {
+        margin-bottom: 24px;
+
+        p {
+            color: rgb(251, 252, 254);
+            font-family: DM400;
+            font-size: 48px;
+            line-height: 56px;
+            letter-spacing: -0.37px;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+    }
+}
+
+
+
+@media (min-width:1000px) {
+    .work-section {
+        padding: 100px 0 100px 0;
+    }
+
+    .work-wrapper {
+        display: flex;
+        align-items: start;
+        gap: 40px;
+    }
+
+    .work-desc-title {
+        p {
+            text-align: start;
+        }
+    }
+
+    .work-desc-text {
+        p {
+            text-align: start;
+        }
+    }
+
+    .work-about-btn {
+        margin: 0;
+    }
+
+    .work-desc {
+        order: 1;
+    }
+
+    .work-with {
+        order: 2;
+    }
+}
+
+@media (min-width:1300px) {
+    .work-wrapper {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 131px;
+    }
+}
