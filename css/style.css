@@ -740,6 +740,9 @@ body {
   border-radius: 24px;
   background: rgb(186, 66, 112);
 }
+.info-form-btn:active {
+  background-color: #c6688c;
+}
 .info-form-btn p {
   font-family: PS700;
   padding: 16px 0 14px 0;

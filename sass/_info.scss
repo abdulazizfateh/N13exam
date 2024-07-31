@@ -101,7 +101,9 @@
     border-radius: 24px;
     background: rgb(186, 66, 112);
 
-    &:active {}
+    &:active {
+        background-color: #c6688c;
+    }
 
     p {
         font-family: PS700;
